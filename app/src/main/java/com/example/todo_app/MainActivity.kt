@@ -71,6 +71,7 @@ class MainActivity : AppCompatActivity() {
             em.userDesc=empArrayEmail
             noteList.add(em)
             index++
+            Toast.makeText(this, "Viewing Record",Toast.LENGTH_SHORT).show()
         }
     }
 
